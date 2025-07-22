@@ -1,7 +1,7 @@
 Mult-threaded java project with cooks, customers, foods and machines.This project aims to keep track of multiple cooks, multiple customers, multiple foods, and simulate the operations of the restaurant.
 
 
---------COOKS---------------------
+--------COOKS---------------------\
  Cooks are simulation actors that have at least one field, a name.
   When running, a cook attempts to retrieve outstanding orders placed
   by Customer and process them.
