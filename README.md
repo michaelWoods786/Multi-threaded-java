@@ -4,10 +4,10 @@ Mult-threaded java project with cooks, customers, foods and machines.This projec
 --------COOKS---------------------\
  Cooks are simulation actors that have at least one field, a name.\
   When running, a cook attempts to retrieve outstanding orders placed\
-  by Customer and process them.\
+  by Customer and process them.
  
 
-The cook tries to retrieve orders placed by Customers. For each order, a List<Food>, the  cook submits each Food item in the List to an appropriate Machine type, by calling makeFood(). Once all machines have produced the desired Food, the order is complete, and the Customer is notified. The cook can then go to process the next order. If during its execution the cook is interrupted (i.e., some other thread calls the interrupt() method on it, which could raise InterruptedException if the cook is blocking), then it terminates.\
+The cook tries to retrieve orders placed by Customers. For each order, a List<Food>, the  cook submits each Food item in the List to an appropriate Machine type, by calling makeFood(). Once all machines have produced the desired Food, the order is complete, and the Customer is notified. The cook can then go to process the next order. If during its execution the cook is interrupted (i.e., some other thread calls the interrupt() method on it, which could raise InterruptedException if the cook is blocking), then it terminates.
  
 -----------------------CUSTOMER----------------------------\
   Customers are simulation actors that have two fields: a name, and a list
